@@ -115,7 +115,7 @@ boxplot(sapply(1:(length(thresh)-1), function(x) weather_shooting[1,which(classi
 library(pointdensityP)
 library(ggmap)
 
-register_google(key = "AIzaSyAtN-yFKd2hMFh1Td-lIumwj_57I5ZcQXg")
+register_google(key = "")
 has_google_key()
 
 density_shot = NULL
